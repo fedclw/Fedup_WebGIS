@@ -1,0 +1,32 @@
+/* 重置默认样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body {
+    font-family: 'Arial', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0,auto;
+}
+/* 设置全局链接样式 */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+#map {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+}
+#map2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
